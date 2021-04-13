@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'BondiSans';
+    src: url('../CSS/BondiSans\ DEMO\ Rough\ TTF.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OverTheRainbow';
+    src: url('../CSS/OvertheRainbow.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('../CSS/Didot\ Bold\ Italic.ttf');
+    src: url('../CSS/Didot\ LT\ Std\ Bold.otf');
+    src: url('../CSS/Didot\ Medium.ttf');
+    src: url('../CSS/Didot\ Medium.ttf');
+    src: url('../CSS/Didot\ Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Helvetica, Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(59, 59, 59);
+    scroll-behavior: smooth;
+    background-color: rgb(243, 237, 232);
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    background-color: rgb(220, 190, 166);
+
+}
+
+
+.header {
+    text-align: center;
+    color: rgb(59, 59, 59);
+    background-color: rgb(244, 215, 193);
+    padding: 10px;
+    background-image: url(../images/brown-watercolor-brush-stroke-23.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.container-fluid{
+    padding-top: 0%;
+    padding-left: 3%;
+    padding-right: 5%;
+    
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    
+}
+
+.navbar-nav {
+    padding-right: 10px;
+}
+
+.intro {
+    width: 87%;
+}
+
+
+#bullet {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li.menu-list {
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+a.links {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+section#interests-section,
+#skills-section {
+    float: left;
+    width: 50%;
+}
+
+section#experience-section {
+    clear: both;
+}
+
+.inline-flex {
+    display: flex;
+    
+
+}
+
+.full-width {
+    width: 100%;
+    min-width: 20%;
+}
+
+
+.list {
+    list-style-type: none;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-position: inside;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+.header5 {
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        color: rgb(59, 59, 59);
+        font-size: 15px;
+        width: 15%;
+      }
+
+
+.education-list {
+    list-style-type: none;
+    padding-bottom: 15px;
+    margin: 0;
+    text-align: left;
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+    width: 60%;
+}
+
+.experience-list {
+        list-style-type: none;
+        padding-bottom: 15px;
+        margin: 0;
+        text-align: left;
+        color: rgb(59, 59, 59);
+        font-size: 15px;
+        width: 60%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(244, 215, 193);
+    color: rgb(59, 59, 59);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    text-decoration: none;
+}
+
+.socialmedia {
+    text-decoration: none;
+}
+
+.footer {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none
+}
+
+a.links:hover {
+    text-decoration: none;
+}
+
+#heythere {
+    font-family: BondiSans;
+    color:rgb(59, 59, 59) ;
+    font-weight: 50%;
+    font-size: 90px;
+    
+}
+
+#johani {
+    font-family: Didot;
+    font-size: 70px;
+}
+
+
+#profilepic {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#skills-heading {
+    font-family: Didot;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#interest {
+    font-family: Didot;
+    font-size: 40px;
+    margin-left: 15px;;
+}
+
+
+}
+
+#intheading {
+    font-family: Didot;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.icons {
+    background-size: 20px 30px;
+}
+
+.col-skills {
+    background-color: rgb(231, 214, 193);
+}
+
+.col-interests {
+    background-color: rgb(231, 214, 193);
+}
+
+.card-body {
+    padding
+}
+
+.footer {
+    text-decoration: none;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
